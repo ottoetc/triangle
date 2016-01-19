@@ -8,7 +8,9 @@ describe('triangle', function() {
     expect(triangle(5,6,8)).to.equal(true);
   });
 //check if isosceles
-
+  it("is true when two sides are equal", function(){
+    expect(triangle(5,5,7)).to.equal(true);
+  });
 
 //check if equilateral
 
