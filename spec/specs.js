@@ -11,7 +11,8 @@ describe('triangle', function() {
   it("is true when two sides are equal", function(){
     expect(triangle(5,5,7)).to.equal(true);
   });
-
 //check if equilateral
-
+  it("is true when all sides are equal", function() {
+    expect(triangle(5,5,5)).to.equal(true);
+  });
 });
